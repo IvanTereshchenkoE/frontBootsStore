@@ -1,0 +1,48 @@
+* {
+    margin: 0pxs;
+    padding: 0px;
+}
+
+.body {
+    margin: 0px;
+}
+
+.App {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    margin-bottom: 100px;
+}
+
+.Header .nav-pages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header .header-nav {
+    padding: 20px 60px 20px 60px;
+    margin-right: 40px;
+    background-color: black;
+}
+
+.Header .header-login {
+    margin-right: 0px;
+}
+
+.Header a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 24px;
+}
+
+.Main .CardProduct {
+    padding: 10px;
+    margin: 25px 10px 25px 10px;
+    background-color: rgb(245, 251, 251);
+}
